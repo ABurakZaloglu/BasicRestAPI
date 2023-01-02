@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ahmetburakzaloglu/Projects/ContactsAPI/ContactsAPI/ContactsAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/ahmetburakzaloglu/Projects/ContactsAPI/ContactsAPI/ContactsAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmetburakzaloglu/Projects/ContactsAPI/ContactsAPI/ContactsAPI.csproj",
+        "projectName": "ContactsAPI",
+        "projectPath": "/Users/ahmetburakzaloglu/Projects/ContactsAPI/ContactsAPI/ContactsAPI.csproj",
+        "packagesPath": "/Users/ahmetburakzaloglu/.nuget/packages/",
+        "outputPath": "/Users/ahmetburakzaloglu/Projects/ContactsAPI/ContactsAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmetburakzaloglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
